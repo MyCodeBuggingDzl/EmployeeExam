@@ -72,6 +72,6 @@ public class Employee{
      */
     public void paySalary(){
         // Question14
-        System.out.printIn("name"+ fullname + "has receive a wire transfer of "+ calculatePay());
+        System.out.println("name"+ fullname + "has receive a wire transfer of "+ calculatePay());
     }
 }
