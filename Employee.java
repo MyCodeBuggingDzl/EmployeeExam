@@ -19,18 +19,17 @@ public class Employee{
         unpaidHours = 0.0;
     }
     
-    public void setHourlyWage()
+    public void setHourlyWage(int amount)
     // Question 11
     {
-        set HourlyWage = amount;
+         hourlyWage =amount;
         
     }
     
-    public int getHourlyWage()
+    public double getHourlyWage()
     // Question11
     {
-        int getHourlyWage;
-        return hourlyWage();
+        return hourlyWage;
         
     }
     
@@ -51,7 +50,7 @@ public class Employee{
         if (age >= 16)
            System.out.printIn("Can drive");
         else
-            System.out.printIn("wait for"+ 16 - calculateAge(2025) );
+            System.out.printIn("wait for"+ 16 - calculateAge());
            
         
         
@@ -73,6 +72,6 @@ public class Employee{
      */
     public void paySalary(){
         // Question14
-        System.out.printIn("name"+ fullname + "has receive a wire transfer of "calculatedPay());
+        System.out.printIn("name"+ fullname + "has receive a wire transfer of "+ calculatePay());
     }
 }
