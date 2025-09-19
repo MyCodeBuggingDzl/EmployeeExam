@@ -48,10 +48,15 @@ public class Employee{
         int age = calculateAge(2025);
         // Question 12
         int canDriveAge= 16;
-        if (age >= 16)
+        
+        if (age >= canDriveAge){
            System.out.println("Can drive");
-        else
+           return true;
+        }
+        else{
             System.out.println("wait for"+ (canDriveAge - age)+ "until you can drive");
+            return false;
+        }
     }
 
     /*
