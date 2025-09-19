@@ -46,11 +46,11 @@ public class Employee{
     public boolean canDrive(){
         int age = calculateAge(2025);
         // Question 12
-        
+        int canDriveAge= 16;
         if (age >= 16)
-           System.out.printIn("Can drive");
+           System.out.println("Can drive");
         else
-            System.out.printIn("wait for"+ 16 - calculateAge());
+            System.out.println("wait for"+ (canDriveAge - age)+ "until you can drive");
            
         
         
