@@ -51,7 +51,7 @@ public class Employee{
         if (age >= 16)
            System.out.printIn("Can drive");
         else
-            System.out.printIn("wait for till you're 16");
+            System.out.printIn("wait for"+ 16 - calculateAge(2025) );
            
         
         
@@ -64,7 +64,7 @@ public class Employee{
     {
         // Question 13
         return(hourlyWage*unpaidHours);
-         return pay = calculatePay*30%
+         return pay = calculatePay*30%;
     }
 
     /*
