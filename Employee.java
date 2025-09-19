@@ -19,6 +19,17 @@ public class Employee{
         unpaidHours = 0.0;
     }
     
+    public void set HourlyWage(){
+        set HourlyWage;
+        
+    }
+    
+    public int get HourlyWage(){
+        int get.this();
+        return hourlyWage();
+        
+    }
+    
     /**
      * Returns true is an employee is above 16 years old
      */
@@ -31,20 +42,31 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        // to be completed
+        // Question 12
+        
+        if (age >= 16)
+           System.out.printIn("Can drive");
+        else
+            System.out.printIn("wait for till you're 16");
+           
+        
+        
     }
 
     /*
      * Returns the net pay for the outstanding unpaid hours
      */
     private double calculatePay(){
-        // to be completed
+        // Question 13
+        return(hourlyWage*unpaidHours);
+         int pay = calculatePay*30%;
     }
 
     /*
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        // to be completed
+        // Question14
+        System.out.printIn("name"+ fullname + "has receive a wire transfer of "calculatedPay());
     }
 }
