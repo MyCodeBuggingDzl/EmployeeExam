@@ -64,7 +64,8 @@ public class Employee{
     {
         // Question 13
         return(hourlyWage*unpaidHours);
-         return pay = calculatePay*30%;
+
+         return pay = calculatePay*30/100;
     }
 
     /*
