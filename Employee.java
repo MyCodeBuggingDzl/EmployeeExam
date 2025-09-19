@@ -19,13 +19,17 @@ public class Employee{
         unpaidHours = 0.0;
     }
     
-    public void set HourlyWage(){
-        set HourlyWage;
+    public void setHourlyWage()
+    // Question 11
+    {
+        set HourlyWage = amount;
         
     }
     
-    public int get HourlyWage(){
-        int get.this();
+    public int getHourlyWage()
+    // Question11
+    {
+        int getHourlyWage;
         return hourlyWage();
         
     }
@@ -56,10 +60,11 @@ public class Employee{
     /*
      * Returns the net pay for the outstanding unpaid hours
      */
-    private double calculatePay(){
+    private double calculatePay()
+    {
         // Question 13
         return(hourlyWage*unpaidHours);
-         int pay = calculatePay*30%;
+         return pay = calculatePay*30%
     }
 
     /*
