@@ -43,7 +43,8 @@ public class Employee{
     /**
      * Returns true is an employee is above 16 years old
      */
-    public boolean canDrive(){
+    public boolean canDrive()
+    {
         int age = calculateAge(2025);
         // Question 12
         int canDriveAge= 16;
@@ -51,9 +52,6 @@ public class Employee{
            System.out.println("Can drive");
         else
             System.out.println("wait for"+ (canDriveAge - age)+ "until you can drive");
-           
-        
-        
     }
 
     /*
@@ -62,9 +60,8 @@ public class Employee{
     private double calculatePay()
     {
         // Question 13
-        return(hourlyWage*unpaidHours);
-
-         return pay = calculatePay*30/100;
+        double tax = 30/100;
+        return tax*unpaidHours*hourlyWage;
     }
 
     /*
